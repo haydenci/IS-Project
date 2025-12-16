@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "gothic-plus";
+    src: url("../assets/fonts/PistonBlack-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 150px 1fr 30px;
+    grid-template-columns: 150px 1fr 500px;
+    height: 100vh;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1a0c09;
+}
+
+a {
+    color: #2e1a15;
+}
+
+.common {
+    background-color: antiquewhite;
+    border: 2px solid transparent;
+    padding: 20px;
+}
+
+.common2 {
+    background-color: antiquewhite;
+    border: 2px solid transparent;
+}
+
+.header {
+    grid-column: 1 / 4;
+    border-bottom: solid 5px whitesmoke;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.leftmenu {
+    grid-column: 1;
+    border-right: solid 5px whitesmoke;
+}
+
+.mainbody {
+    grid-column: 2;
+}
+
+.rightmenu {
+    grid-column: 3;
+    border-left: solid 5px whitesmoke;
+}
+
+.footer {
+    grid-column: 1 / 4;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    background-color: white;
+    border-color: white;
+    z-index: 3;
+}
+
+.submenu {
+    float: right;
+}
+
+.heading {
+    font-family: 'gothic-plus';
+    font-size: 500%;
+}
+
+.title {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+.black-italic {
+    color: #543c23;
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.small {
+    font-size: 70%;
+}
